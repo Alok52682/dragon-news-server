@@ -11,7 +11,7 @@ const news = require('./data/news.json');
 app.get('/', (req, res) => {
     res.send('server is running');
 })
-app.get('/categories', (req, res) => {
+app.get('/news-categories', (req, res) => {
     res.send(categories);
 })
 app.get('/news', (req, res) => {
